@@ -12,7 +12,7 @@ h2 {
 
 li {
     color:coral;
-    font-size:small;
+    font-size:smaller
 }
 
 i {
@@ -23,4 +23,12 @@ p {
     text-align: center;
     font-size: 40px;
     margin-top: 0px;
+}
+
+button {
+    color: dimgray;
+    border: none;
+    border-radius: 12px;
+    padding: 15px 64px;
+    font-size:large;
 }
