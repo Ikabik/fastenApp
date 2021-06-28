@@ -15,11 +15,12 @@
         <span id="timerMin" data-bind="text: min">0</span><span> Minuten</span>
         <span id="timerMin" data-bind="text: sec">0</span><span> Sekunden</span>
     </p>
-    <button id="startEnd" data-bind="click: counterFunctionality">Fasten starten!</button>
+    <button id="startEnd" data-bind="click: counterFunctionality" data-bind="click: whichphase">Fasten starten!</button>
 
 
-    <div data-bind="text: displayPhaseText">"Moin moin"</div>
-
+    <div>
+        <span data-bind="text: displayPhaseText">Loading...</span>
+    </div>
 
     <script src="knockout-3.5.1.js"></script>
     <script src="source.js"></script>

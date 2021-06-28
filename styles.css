@@ -1,8 +1,9 @@
 body{
-    background-color: rgb(227, 248, 169);
+    background-color: rgb(239, 255, 194);
 }
 
 h1 {
+    size: 0cm;
     color:dimgray
 }
 
@@ -29,6 +30,6 @@ button {
     color: dimgray;
     border: none;
     border-radius: 12px;
-    padding: 15px 64px;
+    padding: 10px 41px;
     font-size:large;
 }
